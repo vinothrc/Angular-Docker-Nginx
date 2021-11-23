@@ -1,8 +1,8 @@
 # docker-compose.yml
 version: '3.4'
 services:
-  angula-nginx:
-    image: angular-nginx:1.1
+  node-nginx:
+    image: node-nginx:16
     restart: always
     build:
       context: .
