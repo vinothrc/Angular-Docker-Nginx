@@ -8,8 +8,8 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 8081:80
-      - 8843:443
+      - 80:80
+      - 443:443
     volumes:
       - ./log/nginx-log:/var/log/nginx
       - ./conf.d:/etc/nginx/conf.d
